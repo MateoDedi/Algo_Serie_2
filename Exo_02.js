@@ -1,4 +1,5 @@
 function numDigits(a) {
+  /* 
     let count = 0;
     if (typeof a === 'number') {
         let str = a.toString();
@@ -9,6 +10,15 @@ function numDigits(a) {
     }
 
     return count += i;
+*/
+
+    // Another way
+
+  if (typeof a === "number") {
+    return Math.abs(a).length;
+    } else {
+    return "Not a number...";
+  }
 }
 
 console.log(numDigits(1000));
