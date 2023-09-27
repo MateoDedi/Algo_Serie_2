@@ -17,6 +17,6 @@ function calculator (num1, oprt ,num2) {
     }
 }
 
-console.log(calculator(2, "+", 2) );
+console.log(calculator(2, "+", 2));
 console.log(calculator(2, "*", 2));
 console.log(calculator(4, "/", 2));
