@@ -1,9 +1,9 @@
 function toArray(a) {
     newArr = [];
 
-    for (const key in a) {
-        if (a.hasOwnProperty(key)) {
-            newArr.push([key, a[key]]);
+    for (const keyObj in a) {
+        if (a.hasOwnProperty(keyObj)) {
+            newArr.push([keyObj, a[keyObj]]);
         }
     }
     return newArr;
